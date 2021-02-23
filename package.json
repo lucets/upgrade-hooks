@@ -1,0 +1,25 @@
+{
+  "name": "@lucets/upgrade-hooks",
+  "version": "0.1.0",
+  "description": "Upgrade hooks for @lucets/luce",
+  "main": "./dist/index.js",
+  "author": "Michiel van der Velde <michiel@michielvdvelde.nl>",
+  "homepage": "http://github.com/lucets/upgrade-hooks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucets/upgrade-hooks.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "keywords": [
+    "hooks",
+    "upgrade",
+    "luce",
+    "ws"
+  ],
+  "license": "MIT"
+}
