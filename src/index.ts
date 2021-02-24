@@ -35,6 +35,6 @@ export default class UpgradeHooks<TContext> extends Set<UpgradeHook<TContext>> {
       return
     }
 
-    return UpgradeHooks.compose(...this.values())(ctx, noopAsync)
+    await UpgradeHooks.compose(...this.values())(ctx, noopAsync)
   }
 }
